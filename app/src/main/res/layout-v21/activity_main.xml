@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEFFFF"
+    android:isScrollContainer="false"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:background="#EEFFFF"
+        android:text="@string/ScoreText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Button
+        android:id="@+id/P1IncBtn"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="incP1"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="0"
+        android:stateListAnimator="@null"
+        android:text="@string/p1"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:backgroundTint="#B9CF3C"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/P2IncBtn"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:onClick="incP2"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="0"
+        android:stateListAnimator="@null"
+        android:text="@string/p2"
+        app:backgroundTint="#B9CF3C"
+        app:layout_constraintBottom_toTopOf="@+id/resetBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:onClick="reset"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="0"
+        android:stateListAnimator="@null"
+        android:text="@string/reset"
+        app:backgroundTint="#831D6365"
+        app:icon="@android:drawable/ic_popup_sync"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:onClick="undo"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="0"
+        android:stateListAnimator="@null"
+        android:text="@string/undo"
+        app:backgroundTint="#831D6365"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <Switch
+        android:id="@+id/wimbledonSwtc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="393dp"
+        android:onClick="changeViewMode"
+        android:text="@string/wimbldeonSwitch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" /><![CDATA[
+
+
+    />
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>

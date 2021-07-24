@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tennis Scoreboard Mobile</string>
+    <string name="p2">P2++</string>
+    <string name="p1">P1++</string>
+    <string name="p1Name">P1++</string>
+    <string name="p2Name">P1++</string>
+    <string name="ScoreText">0  0<br></br> 0  0</string>
+    <string name="reset">Reset</string>
+    <string name="undo">Undo</string>
+    <string name="button">Button</string>
+    <string name="wimbledonSwitchVal">Switch</string>
+    <string name="wimbldeonSwitch">Wimbledon</string>
+</resources>

@@ -2,8 +2,8 @@
 ## What This App Is All About
 This application simulates a tennis scoreboard for a grandslam tennis match, which implies that it can be used with ordinary matches as well.
 ## Tools and Technologies Used
-• Java
-• Android Studio
+- Java
+- Android Studio
 ## Screenshots
 Here are some screenshots showing the application at various states
 
